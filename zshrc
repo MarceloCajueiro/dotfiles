@@ -28,9 +28,6 @@ plugins=(git bundler rails3)
 
 source $ZSH/oh-my-zsh.sh
 
-# Customize to your needs...
-export PATH=/Users/marcelocajueiro/.rvm/gems/ruby-1.9.3-p194/bin:/Users/marcelocajueiro/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/marcelocajueiro/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/marcelocajueiro/.rvm/bin:/Users/marcelocajueiro/.brew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
-
 # Add aliases
 source ~/Code/dotfiles/aliases
 
