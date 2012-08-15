@@ -1,0 +1,21 @@
+alias grep="grep --color"
+alias egrep="egrep --color"
+
+alias tailf="tail -f"
+
+alias l="ls"
+alias la="ls -a"
+alias ll="ls -lah"
+
+alias mv="mv -i"
+alias cp="cp -i"
+alias rm="rm -i"
+
+alias r="rails"
+alias rk="rake"
+alias u="unicorn"
+
+alias lock="open /System/Library/Frameworks/ScreenSaver.framework/Versions/A/Resources/ScreenSaverEngine.app"
+
+alias refresh="git pull origin master && bundle && rake db:migrate db:test:prepare"
+alias dbmt="rake db:migrate db:test:prepare"
