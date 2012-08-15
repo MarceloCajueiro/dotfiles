@@ -6,3 +6,5 @@ ln -si $PWD/gitignore ~/.gitignore
 git config --global core.excludesfile ~/.gitignore
 
 echo "source `PWD`/zshrc" > ~/.zshrc
+
+echo "source `PWD`/tmux.conf" > ~/.tmux.conf
