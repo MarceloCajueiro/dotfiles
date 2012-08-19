@@ -19,3 +19,6 @@ alias lock="open /System/Library/Frameworks/ScreenSaver.framework/Versions/A/Res
 
 alias refresh="git pull origin master && bundle && rake db:migrate db:test:prepare"
 alias dbmt="rake db:migrate db:test:prepare"
+
+alias tmux="tmux -u"
+alias t="tmux -u"
