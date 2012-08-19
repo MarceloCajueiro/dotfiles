@@ -1,7 +1,7 @@
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
 
-# Load RVM into a shell session *as a function*
+# Load RVM
 source ~/Code/dotfiles/rvm
 
 # Set name of the theme to load.
