@@ -38,3 +38,8 @@ source ~/Code/dotfiles/aliases
 
 # Ruby improvements
 source ~/Code/dotfiles/ruby_improvements
+
+# vi mode
+setopt vi
+
+export EDITOR=vim
