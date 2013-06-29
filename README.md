@@ -2,31 +2,24 @@
 
 Hey guys!
 
-Here is my dotfiles for Mac OS X.
+Here is my dotfiles.
 
-In the past I used the dotfiles from my friend [@Sobrinho](https://github.com/sobrinho/) but my necessities were changed then I do my own dotfiles based on the [@Sobrinho](https://github.com/sobrinho/)'s [dotfiles](https://github.com/sobrinho/dotfiles).
+They are inspired in several another ones from [Gabriel Sobrinho](https://github.com/sobrinho/),
+[Ben Orenstein](https://github.com/r00k/) and [Gary Bernhardt](https://github.com/garybernhardt).
 
-## Usage
 
-Clone the repository:
+## Instalattion
 
-`$ git clone https://github.com/marcelocajueiro/dotfiles.git`
+```
+$ git clone https://github.com/MarceloCajueiro/dotfiles.git ~/.dotfiles
+$ cd ~/.dotfiles
+$ rake install
+```
 
-And run the install:
+Vim plugins are managed through vundle. You'll need to install vundle to get them.
 
-`$ cd dotfiles`
+```
+$ git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+```
 
-`$ sh install`
-
-## These dotfiles add some configurations or aliases to:
-
-* Ack
-* Git
-* Ruby
-* Ruby gems
-* RVM
-* Zsh
-
-## License
-
-Copyright (c) 2011-2012 Marcelo Cajueiro, released under the MIT license.
+Run `:BundleInstall` in vim.
