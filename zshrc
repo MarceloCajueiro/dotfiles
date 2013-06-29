@@ -36,8 +36,6 @@ source $ZSH/oh-my-zsh.sh
 # Add aliases
 source ~/Code/dotfiles/aliases
 
-# Ruby improvements
-source ~/Code/dotfiles/ruby_improvements
 
 # vi mode
 bindkey -v
@@ -47,3 +45,10 @@ KEYTIMEOUT=1
 export EDITOR=vim
 
 set shell=/bin/sh
+
+# Ruby improvements
+export RUBY_HEAP_MIN_SLOTS=1000000
+export RUBY_HEAP_SLOTS_INCREMENT=1000000
+export RUBY_HEAP_SLOTS_GROWTH_FACTOR=1
+export RUBY_GC_MALLOC_LIMIT=1000000000
+export RUBY_HEAP_FREE_MIN=500000
