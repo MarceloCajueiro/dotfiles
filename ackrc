@@ -1,2 +1,9 @@
 --type-add=ruby=.haml,.rake,.ru,.gemspec
 --type-add=css=.less,.sass,.scss
+
+--ignore-dir=vendor
+--ignore-dir=log
+--ignore-dir=tmp
+--ignore-dir=doc
+--ignore-dir=coverage
+--ignore-file=is:tags
