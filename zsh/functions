@@ -1,0 +1,22 @@
+gh_commit() {
+  echo "https://github.com/$1/$2/commit/$3"
+}
+
+nohup_commit() {
+  gh_commit "nohupbrasil" $*
+}
+
+contabil_commit() {
+  nohup_commit "contabilidade" $*
+}
+
+recriate_branch() {
+  git co master
+  git fetch
+  git branch -D $1
+  git co -b $1 origin/$1
+}
+
+delete_almost_all_branches() {
+  git branch -D `git branch | awk  '{ if ($0 !~ /master/) printf "%s", $0 }'`
+}

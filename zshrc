@@ -33,9 +33,14 @@ plugins=(git rails3)
 
 source $ZSH/oh-my-zsh.sh
 
-# Add aliases
-source ~/Code/dotfiles/aliases
+# Add aliases and functions
+source ~/.dotfiles/zsh/aliases
+source ~/.dotfiles/zsh/functions
 
+if [ -f ~/.dotfiles/zsh/particular_aliases ]
+then
+  source ~/.dotfiles/zsh/particular_aliases
+fi
 
 # vi mode
 bindkey -v
