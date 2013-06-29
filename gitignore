@@ -9,3 +9,6 @@ tmp/restart.txt
 fabfile.pyc
 term_script.rb
 .netrwhist
+.env
+tags
+vendor/*
