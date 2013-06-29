@@ -1,4 +1,5 @@
 export LANG=en_US.UTF-8
+export LC_ALL=en_US.utf-8
 
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
@@ -7,7 +8,9 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-export ZSH_THEME="tjkirch"
+# export ZSH_THEME="gnzh"
+export ZSH_THEME="dst"
+# Great themes: mortalscumbag kphoen gnzh dst
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -26,7 +29,7 @@ export ZSH_THEME="tjkirch"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git bundler rails3)
+plugins=(git rails3)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -37,6 +40,10 @@ source ~/Code/dotfiles/aliases
 source ~/Code/dotfiles/ruby_improvements
 
 # vi mode
-setopt vi
+bindkey -v
+
+KEYTIMEOUT=1
 
 export EDITOR=vim
+
+set shell=/bin/sh
