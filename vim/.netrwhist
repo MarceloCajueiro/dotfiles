@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/marcelocajueiro/Code/coolmeia/site'
+let g:netrw_dirhist_2='/Users/marcelocajueiro/Code/Nohup/contabilidade/app/enumerations'
+let g:netrw_dirhist_3='/Users/marcelocajueiro/.ssh'
+let g:netrw_dirhist_4='/Users/marcelocajueiro/.vim'
